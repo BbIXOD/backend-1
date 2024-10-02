@@ -1,5 +1,5 @@
 # Goal
-Simple containerized flask api with one endpoint
+Simple containerized flask api with two endpoints
 
 # Run locally
 1. setup and enter virtual env (optional): `python3 -m venv venv && source ./env/bin/activate`
@@ -20,7 +20,7 @@ Note: `simple_api` can be changed to any name you want
 3. run `docker-compose up`
 
 # Usage:
-on get request program sends current time in Kyiv and status code 200.
+on get request on path `/healthcheck` program sends json with 2 fields: current time in Kyiv, server status and status code 200.
 
 # Hosted link
 https://backend-1-ejet.onrender.com

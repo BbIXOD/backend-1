@@ -20,7 +20,7 @@ Note: `simple_api` can be changed to any name you want
 3. run `docker-compose up`
 
 # Usage:
-on get request on path `/healthcheck` program sends json with 2 fields: current time in Kyiv, server status and status code 200.
+on get request on path `/healthcheck` program sends json with 2 fields: current time in Kyiv, server status and status code 200. Json has next structure: `{ date: string, status: string }`
 
 # Hosted link
 https://backend-1-ejet.onrender.com

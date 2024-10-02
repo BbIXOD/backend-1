@@ -11,6 +11,7 @@ Simple containerized flask api with one endpoint
 2. run it (for systemd devices: `sudo systmectl start docker`)
 3. build `docker build -t simple_api .`
 4. run `docker run -it --rm --network=host -e PORT=8080 simple_api`
+
 Note: `simple_api` can be changed to any name you want
 
 # Run with docker-compose
